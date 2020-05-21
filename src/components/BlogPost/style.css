@@ -57,6 +57,16 @@
     padding-bottom: 2rem;
 }
 
+.postVideo {
+    text-align: center;
+    margin: -1rem auto 0;
+}
+
+.postVideo video {
+    max-width: 80%;
+    margin-bottom: 2rem;
+}
+
 @media (max-width: 500px) {
     .postTitle {
         padding: 1rem 1rem 0.5rem;
