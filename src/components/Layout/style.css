@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+    .container {
+        display: initial;
+    }
+}

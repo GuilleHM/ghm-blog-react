@@ -1,0 +1,85 @@
+.galleryPost {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 2px;
+}
+
+.pic {
+    background: #fff no-repeat center center / cover;
+}
+
+.pic a {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 5px 2px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #565673;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.pic a:hover {
+    background-color: #10bde9;
+    transition: all 0.2s ease-out;
+}
+
+.mainPic {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    background-image: url('../../assets/homePageImages/computer-desk.jpg');
+}
+
+.mainPic a {
+    top: 90%;
+    font-size: 1.3rem;
+}
+
+.secondPicTop {
+    grid-column: 3;
+    grid-row: 1;
+    background-image: url('../../assets/homePageImages/robots.jpg');
+}
+
+.secondPicCenter {
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url('../../assets/homePageImages/painting.jpg');
+}
+
+.secondPicBottom {
+    grid-column: 3;
+    grid-row: 3;
+    background-image: url('../../assets/homePageImages/rocket.jpg');
+}
+
+.secondPicTop a, .secondPicCenter a, .secondPicBottom a {
+    top: 80%;
+    font-size: 1rem;
+}
+
+@media(min-width: 1000px) {
+    .galleryPost {
+        grid-auto-rows: minmax(150px, auto);
+    }
+}
+
+@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+    .galleryPost {
+        grid-auto-rows: minmax(50px, auto);
+    }
+    .mainPic a {
+        top: 85%;
+        font-size: 0.9rem;
+    }
+    .secondPicTop a, .secondPicCenter a, .secondPicBottom a {
+        top: 60%;
+        font-size: 0.6rem;
+    }
+}

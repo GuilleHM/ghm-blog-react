@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "postTitle": "De incógnito",
+            "slug": "de-incognito",
+            "postedOn": "21 de Febrero de 2020",
+            "postBriefing": "El objetivo de este trabajo era familiarizarme con la biblioteca OpenCV de Python. Dentro de las amplias opciones que ofrece esta potente herramienta para el procesamiento de imágenes, decidí centrarme en el reconocimiento facial y la superposición de imágenes para conseguir un efecto (carnavalesco) de camuflaje....",
+            "imageName": "deIncognitoConMarcaDeAgua.png"
+        },
+        {
+            "id": 1,
+            "postTitle": "JOBNTER no te quitará el trabajo, ¡te ayudará a encontrarlo!",
+            "slug": "jobnter",
+            "postedOn": "07 de Diciembre de 2019",
+            "postBriefing": "Si estás buscando trabajo actualmente, utilizas LinkedIn para ello y te gustaría contar con un asistente personal que envíe por tí tus solicitudes, esta entrada te interesa...",
+            "imageName": "jobnter.png"
+        }
+    ]
+}

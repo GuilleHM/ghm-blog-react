@@ -1,0 +1,230 @@
+.contactMainPic {
+    height: 40vh;
+    background: #fff url('../../assets/secondaryPagesImages/contacto.jpg') no-repeat center center / cover;
+}
+
+.contactMainPic span {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    padding: 0 50px 5px;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #565673;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+main.contact {
+    padding: 1rem 3rem;
+    color: #565673;
+    margin-bottom: 2rem;
+}
+
+.contact p.sm-heading {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #333;
+    padding: 0.1rem 1rem 0.5rem 1rem;
+    margin: 1rem -3rem 2rem;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.boxes div {
+    font-size: 2rem;
+    color: #fff;
+    background-color: #555;
+    /* border: 3px #10bde9 solid; */
+    border-radius: 10px;
+    /* padding: 1.5rem 2.5rem; */
+    padding: 1rem;
+    /* margin-bottom: 3rem; */
+    margin-right: 1rem;
+    transition: all 0.5s ease-out;
+}
+
+.boxes div:hover {
+    /* padding: 0.5rem 1.5rem; */
+    padding: 0.5rem;
+    background: #333;
+    color: #fff;
+}
+
+.boxes div a {
+    color: #fff;
+}
+
+.boxes div a:hover {
+    transition: all 0.5s ease-out;
+    color: #10bde9;
+    /* color: #7a03be; */
+}
+
+/* Estilizado del Formulario */
+
+@font-face {
+    font-family: 'journalregular';
+    src: url('fonts/journal-webfont.woff2') format('woff2'), url('fonts/journal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'secret_typewriterregular';
+    src: url('fonts/veteran_typewriter-webfont.woff2') format('woff2'), url('fonts/veteran_typewriter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contactFormContainer {
+    align-items: center;
+}
+
+form.contactForm {
+    position: relative;
+    width: 740px;
+    height: 498px;
+    margin: 1rem auto 2rem;
+    border: 3px solid #000;
+    padding: 1rem;
+    box-sizing: border-box;
+    background: #fff url(background2.jpg);
+    /* Creamos la rejilla (grid) */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10em 1em 1em 1em;
+}
+
+.contactForm h1 {
+    font: 1em "typewriter", monospace;
+    align-self: end;
+}
+
+.contactForm #message {
+    grid-row: 1 / 5;
+}
+
+.contactForm #from, #reply {
+    display: flex;
+}
+
+.contactForm label {
+    font: 1rem "typewriter", monospace;
+}
+
+.contactForm input, .contactForm textarea {
+    font: 1rem "handwriting", cursive, sans-serif;
+    color: blue;
+    border: none;
+    padding: 0 10px;
+    margin: 0;
+    width: 80%;
+    height: 25px;
+    background: none;
+}
+
+.contactForm input:focus, .contactForm textarea:focus {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+
+.contactForm textarea {
+    display: block;
+    padding: 10px;
+    margin: 10px 0 0 -10px;
+    width: 100%;
+    height: 90%;
+    resize: none;
+    overflow: auto;
+}
+
+.contactForm button {
+    margin: 10px auto;
+    padding: 5px;
+    font: bold .6em sans-serif;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}
+
+.contactForm button:after {
+    content: " >>>";
+}
+
+.contactForm button:hover, .contactForm button:focus {
+    outline: none;
+    background: #000;
+    color: #fff;
+}
+
+/* Final estilizado Formulario */
+
+@media (max-width: 850px) {
+    form.contactForm {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background: none;
+    }
+}
+
+@media (max-width: 680px) {
+    .contactMainPic span {
+        font-size: 2rem;
+    }
+    .contact p.sm-heading {
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 1rem 0 2rem;
+    }
+    .contactFormContainer, .contactMedia {
+        margin: 0 -2rem;
+    }
+    form.contactForm {
+        display: block;
+    }
+    .contactForm h1 {
+        margin-bottom: 1rem;
+    }
+    .contactForm #message {
+        margin-top: 1rem;
+    }
+    .contactForm #message textarea {
+        margin: 0.5rem auto;
+        padding-top: 0.5rem;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .boxes {
+        flex-direction: column;
+    }
+    .boxes div {
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .contact p.sm-heading {
+        font-size: 1.2rem;
+    }
+    .contactForm input, .contactForm textarea {
+        font-size: 0.9rem;
+    }
+}

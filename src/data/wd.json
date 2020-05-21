@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "id": 7,
+            "postTitle": "Mi nuevo sitio web es (más) seguro",
+            "slug": "mi-nuevo-sitio-web-es-mas-seguro",
+            "postedOn": "10 de Mayo de 2020",
+            "postBriefing": "Aunque éste ya ofrecía un estándar de seguridad elevado, toda vez que se sirve a través de HTTPS, siempre hay lugar para la mejora: como puede verse en la figura que aparece al final de esta entrada, un par de pequeños cambios han implicado una mejora sustancial en la categoría alcanzada por el sitio web...",
+            "imageName": "sitioWebSeguro.png"
+        },
+        {
+            "id": 6,
+            "postTitle": "Página de inicio con efecto de escritura dinámica",
+            "slug": "pagina-inicio-efecto-escritura-dinamica",
+            "postedOn": "06 de Mayo de 2020",
+            "postBriefing": "Utilizando el efecto que simula la escritura de caracteres en pantalla (ya empleado anteriormente en la publicación 'EL TEMPLE'), presento esta página de inicio que he utilizado para familiarizarme con el proceso de despliegue de sitios web estáticos en Netlify...",
+            "imageName": "bienvenidoAMiSitioWeb2.gif"
+        },
+        {
+            "id": 5,
+            "postTitle": "Pelotas que rebotan, aparecen, desaparecen y cambian de color y tamaño",
+            "slug": "pelotas-botiboing",
+            "postedOn": "29 de Abril de 2020",
+            "postBriefing": "Este mini proyecto tiene como objetivo fundamental practicar el uso del modelo de clases para la definición de objetos (en lugar del, en  mi opinión, menos intuitivo modelo basado en funciones constructoras y prototipos), introducido en la especificación del lenguaje JavaScript ECMAScript2015 (a.k.a. ES6), y la API Canvas para la representación de figuras 2D...",
+            "imageName": "pelotasBotiboing.gif"
+        },
+        {
+            "id": 4,
+            "postTitle": "Un formulario web peculiar",
+            "slug": "un-formulario-web-peculiar",
+            "postedOn": "23 de Abril de 2020",
+            "postBriefing": "Esta publicación muestra un formulario web que simula el reverso de una tarjeta postal. El formulario se presenta sobre una imagen de fondo de una postal e incluye un área de texto donde escribir un mensaje, dos entradas de línea de texto en las que indicar, respectivamente, el nombre y el correo electrónico del remitente y un botón sobre el que clicar para enviar el formulario...",
+            "imageName": "postcardSnapshot2.png"
+        },
+        {
+            "id": 3,
+            "postTitle": "El Temple",
+            "slug": "el-temple",
+            "postedOn": "21 de Abril de 2020",
+            "postBriefing": "En esta entrada presento una página de inicio adaptativa (responsive landing page) de un sitio web que he creado para la práctica de html5, css3 (incluyendo media queries y keyframes) y javascript. El uso de npm y gh-pages, ha permitido el despliegue del 'sitio' web, al que se accede mediante redireccionamiento DNS, en GitHub Pages.",
+            "imageName": "elTemple.png"
+        },
+        {
+            "id": 2,
+            "postTitle": "Mi nuevo sitio web",
+            "slug": "mi-nuevo-sitio-web",
+            "postedOn": "22 de Marzo de 2020",
+            "postBriefing": "Esta entrada sirve como introducción de mi nuevo sitio web personal, en inglés, en el que me presento y expongo algunos de los trabajos recogidos también aquí, en mi blog, utilizando CSS3 y Javascrip para dotar a las páginas que lo componen de dinamismo...",
+            "imageName": "nuevoSitioWeb.png"
+        },
+        {
+            "id": 1,
+            "postTitle": "Mi primera nano-aplicación Flask",
+            "slug": "mi-primera-nano-aplicacion-flask",
+            "postedOn": "26 de Febrero de 2020",
+            "postBriefing": "Esta entrada recoge el trabajo realizado para una prueba técnica en la que se solicita el uso de diversas herramientas empleadas en el desarrollo de aplicaciones web: Python, Flask, Unittest, Git y Github. El proyecto implicaba el desarrollo de una 'aplicación'...",
+            "imageName": "techTestAapp.png"
+        }
+    ]
+}

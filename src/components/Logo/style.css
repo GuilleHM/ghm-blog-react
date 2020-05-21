@@ -1,0 +1,38 @@
+.logo {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.logo a {
+    font-size: 3rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #10bde9;
+    transition: all 0.2s ease-in;
+}
+
+.logo p {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+    .logo a {
+        font-size: 2rem;
+    }
+    .logo p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-device-width: 400px) and (orientation: portrait) {
+    .logo a {
+        font-size: 1.7rem;
+    }
+    .logo p {
+        font-size: 0.9rem;
+    }
+}

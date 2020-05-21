@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "postTitle": "¡Ya vienen Los Reyes!",
+            "slug": "ya-vienen-los-reyes",
+            "postedOn": "2 de Enero de 2020",
+            "postBriefing": "Ésta es una creación artístico-técnica en la que emplearemos como base una ilustración creada a partir de un dibujo publicado por Andrew Newman en ASCII Arts y a la que añadiremos dinamismo a través del cambio de color y el parpadeo de algunos elementos, lo que nos servirá para practicar el procesamiento cooperativo asíncrono multitarea en Python...",
+            "imageName": "reyesMagos.gif"
+        },
+        {
+            "id": 1,
+            "postTitle": "Estudio de viabilidad de una instalación de autoconsumo conectada a red",
+            "slug": "estudio-viabilidad-instalacion-autoconsumo",
+            "postedOn": "4 de Diciembre de 2019",
+            "postBriefing": "Este trabajo ha evaluado la viabilidad económica de una instalación eólico-solar de autoconsumo de energía eléctrica para un domicilio particular, en el nuevo contexto que ha supuesto para este tipo de instalaciones la reciente aprobación en España del Real Decreto 244/2019, de 5 de abril...",
+            "imageName": "alternativeEnergy2.jpg"
+        }
+    ]
+}

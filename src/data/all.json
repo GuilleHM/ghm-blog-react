@@ -1,0 +1,147 @@
+{
+    "data": [
+        {
+            "id": 13,
+            "postCategory": "Desarrollo Web",
+            "postTitle": "Mi Nuevo Sitio Web es (Más) Seguro",
+            "postSubtitle": "MEJORANDO LA SEGURIDAD DE MI SITIO WEB",
+            "slug": "mi-nuevo-sitio-web-es-mas-seguro",
+            "postedOn": "10 de Mayo de 2020",
+            "author": "GuilleHM",
+            "postImage": "sitioWebSeguro.png",
+            "postText": "Aunque éste ya ofrecía un estándar de seguridad elevado, toda vez que se sirve a través de HTTPS (el sitio web está alojado en Netlify, que dota por defecto del certificado de autentificación necesario para ello). No obstante, siempre hay lugar para la mejora: un par de pequeños cambios han implicado un avance sustancial en la categoría alcanzada por el sitio web en la herramienta para la evaluación de la seguridad de sitios web que ofrece Mozilla.<br></br>En <a href='https://observatory.mozilla.org/analyze/guille.ml' target='_blank'>https://observatory.mozilla.org/analyze/guille.ml</a> puedes encontrar los resultado completos de la evaluación.<br></br>La modificación ha consistido, básicamente, en la inclusión en el archivo de configuración empleado para el despliegue automático del sitio web en Netlify (netlify.toml), del código necesario para la actualización de la respuesta HTTP del servidor, de forma que ésta incluya una CSP o Política de Seguridad del Contenido (con unas directivas determinadas) y sendos encabezados relativos a otros aspectos relacionados con la seguridad (si estás interesado/-a en los detalles técnicos, no dudes en contactarme).<br></br>Otro tema muy distinto es el rendimiento...y ese lo abordaré pronto, empleando, por ejemplo, <i>responsive images</i> (<i>resolution switching</i>&nbsp;&nbsp;y/o <i>art direction</i>&nbsp;): una técnica que implica adaptar el 'peso' de las imágenes empleadas en las distintas páginas que componen el sitio, a los distintos dispositivos desde los que se puede acceder a ellas...<i>stay tuned!</i><br></br>¡QUE TENGAS UNA NAVEGACIÓN SEGURA! :)"
+        },
+        {
+            "id": 12,
+            "postCategory": "Desarrollo Web",
+            "postTitle": "Página de Inicio con Efecto de Escritura Dinámica",
+            "postSubtitle": "UNA FORMA ORIGINAL DE PRESENTAR UN SITIO WEB",
+            "slug": "pagina-inicio-efecto-escritura-dinamica",
+            "postedOn": "6 de Mayo de 2020",
+            "author": "GuilleHM",
+            "postImage": "bienvenidoAMiSitioWeb2.gif",
+            "postText": "Ésta es una entrada concisa para mostrar una página de inicio desplegada manualmente en Netlify.<br></br>Utilizando el efecto que simula la escritura de caracteres en pantalla (ya empleado anteriormente en EL TEMPLE), presento esta página de inicio que he utilizado para familiarizarme con el proceso de despliegue de sitios web estáticos en Netlify.<br></br>El siguiente paso consistirá en aprovechar la posibilidad de despliegue / integración continua (CD/CI) que ofrece Netlify, integrando un repositorio publicado en Github para ello.<br></br>Puedes visitar la página en&nbsp;<a href='https://ghm-landingpage-test.netlify.app/' target='_blank'>https://ghm-landingpage-test.netlify.app</a>&nbsp;o ver el código fuente en&nbsp;<a href='https://github.com/GuilleHM/despliegue-manual-landingpage-netlify' target='_blank'>Github</a>.<br></br>¡SALUDOS DESDE ESTA BONITA NOCHE!"
+        },
+        {
+            "id": 11,
+            "postCategory": "Desarrollo Web",
+            "postTitle": "Pelotas que Rebotan, Aparecen, Desaparecen y Cambian de Color y Tamaño",
+            "postSubtitle": "PELOTAS 'BOTIBOIN'",
+            "slug": "pelotas-botiboing",
+            "postedOn": "29 de Abril de 2020",
+            "author": "GuilleHM",
+            "postImage": "pelotasBotiboing.gif",
+            "postText": "En esta ocasión traigo el resultado de un ejercicio planteado en la web de la <i>Mozilla Development Network</i>: una pantalla con pelotas de colores que rebotan contra las paredes del navegador web.<br></br>He incluido varias modificaciones para personalizar el resultado final del proyecto: un fondo y una cabecera distintas, las pelotas no incluyen estela y en caso de colisión aparecen/desaparecen y cambian de tamaño y color.<br></br>Este mini proyecto tiene como objetivo fundamental practicar el uso del <u>modelo de clases para la definición de objetos</u> (en lugar del menos intuitivo modelo basado en funciones constructoras y prototipos), introducido en la especificación del lenguaje <i>JavaScript </i>&nbsp;ECMAScript2015 (a.k.a. ES6), y la <u>API Canvas</u> para la representación de figuras 2D.<br></br>A continuación, puedes ver un GIF extraído del resultado final. Si visitas la web&nbsp;<a href='https://guillehm.github.io/pelotas-botiboin/' target='_blank'>https://guillehm.github.io/pelotas-botiboin/</a>&nbsp;podrás ver a estas bolas juguetonas en todo su esplendor. El código, como siempre, en <a href='https://github.com/GuilleHM/pelotas-botiboin' target='_blank'>Github</a>.<br></br>BOING, BOING... :)"
+        },
+        {
+            "id": 10,
+            "postCategory": "Desarrollo Web",
+            "postTitle": "Un Formulario Web Peculiar",
+            "postSubtitle": "QUERIDO X, ¿CÓMO ESTÁS?",
+            "slug": "un-formulario-web-peculiar",
+            "postedOn": "23 de Abril de 2020",
+            "author": "GuilleHM",
+            "postImage": "postcardSnapshot2.png",
+            "postText": "Esta publicación muestra un formulario web que simula el reverso de una tarjeta postal.<br></br>Se trata de un pequeño proyecto basado en la sección de aprendizaje&nbsp;del sitio web&nbsp;<i>Mozilla Development Network</i>&nbsp;sobre el empleo y estilizado de varios de los tipos de elementos de control que pueden conformar un formulario.<br></br>El formulario se presenta sobre una imagen de fondo de una postal e incluye un área de texto donde escribir un mensaje, dos entradas de línea de texto en las que indicar, respectivamente, el nombre y el correo electrónico del remitente y un botón sobre el que clicar para enviar el formulario (el botón está inactivo, ya que el el formulario no pretende ser funcional).<br></br>Cabe destacar que la entrada de correo electrónico hace uso de la verificación del lado cliente por defecto del navegador para asegurar la entrada de una dirección con un formato correcto. Respecto al estilizado, reseñar que se emplean dos tipos de fuentes para el texto: una que imita la escritura mediante una máquina de escribir antigua y otra que hace lo propio para un texto escrito a mano.<br></br>Puedes visitar el formulario en&nbsp;<a href='https://guillehm.github.io/formulario-web-tarjeta-postal/' target='_blank'>https://guillehm.github.io/formulario-web-tarjeta-postal/</a>&nbsp;o ver el código fuente en&nbsp;<a href='https://github.com/GuilleHM/formulario-web-tarjeta-postal' target='_blank'>Github</a>.<br></br>¿DESDE DÓNDE VAS A ENVIAR TU POSTAL? :)"
+        },
+        {
+            "id": 9,
+            "postCategory": "Desarrollo Web",
+            "postTitle": "El Temple",
+            "postSubtitle": "PÁGINA DE INICIO DE UN SITIO WEB MISTERIOSO",
+            "slug": "el-temple",
+            "postedOn": "21 de Abril de 2020",
+            "author": "GuilleHM",
+            "postImage": "elTemple.png",
+            "postText": "En esta entrada presento una página de inicio adaptativa (<i>responsive&nbsp;landing page</i>&nbsp;) de un sitio web que he creado para la práctica de <i>html5</i>, <i>css3</i>&nbsp;(incluyendo <i>media queries </i>y<i> keyframes</i>&nbsp;) y <i>javascript</i>.<br></br>Por otro lado, el uso de <i>npm </i>y <i>gh-pages</i>, ha permitido el despliegue del 'sitio' web, al que se accede mediante redireccionamiento DNS, en GitHub Pages.<br></br>En definitiva, una suerte de ejercicio para practicar la creación del <i>front-end</i> y el despliegue de un sitio web.<br></br>Puedes visitarla en&nbsp;<a href='https://eltemple.tk/' target='_blank'>www.eltemple.tk</a>&nbsp;o ver el código fuente en <a href='https://github.com/GuilleHM/eltemple' target='_blank'>Github</a>.<br></br>PD: si accedes mediante ordenador, en lugar de tableta o teléfono inteligente, la experiencia será mucho más rica, incluyendo efectos sonoros y una sorpresa dentro de la torre :).<br></br>¿TE ATREVES A ENTRAR?"
+        },
+        {
+            "id": 8,
+            "postCategory": "Desarrollo Web",
+            "postTitle": "Mi Nuevo Sitio Web",
+            "postSubtitle": "NUEVA WEB PERSONAL CON ANIMACIONES CSS3",
+            "slug": "mi-nuevo-sitio-web",
+            "postedOn": "22 de Marzo de 2020",
+            "author": "GuilleHM",
+            "postImage": "nuevoSitioWeb.png",
+            "postText": "Ésta es una entrada singular...sólo pretende anunciar el lanzamiento de mi nuevo sitio web. Si quieres visitarlo, puedes hacerlo en <a href='https://www.guille.ml/' target='_blank'>www.guille.ml</a>.<br></br>¡AH! SE ME OLVIDABA, ESTÁ EN INGLÉS :)"
+        },
+        {
+            "id": 7,
+            "postCategory": "Desarrollo Web",
+            "postTitle": "Mi Primera Nano-Aplicación Flask",
+            "postSubtitle": "¿NANO O PICO? NO SÉ...¡MUY PEQUEÑA EN CUALQUIER CASO!",
+            "slug": "mi-primera-nano-aplicacion-flask",
+            "postedOn": "26 de Febrero de 2020",
+            "author": "GuilleHM",
+            "postImage": "techTestAapp.png",
+            "postText": "Esta entrada recoge el trabajo realizado para una prueba técnica en la que se solicita el uso de diversas herramientas empleadas en el desarrollo de aplicaciones web:<ul><li>Python, como lenguaje de programación base en el<i> back-end</i>.</li><li>Flask, un <i>micro-framework</i> para Python empleado en <i>web development</i>.</li><li>Unittest, un módulo de la biblioteca estándar de Python para el testeado de aplicaciones.</li><li>Git and Github, un sistema de control de versiones y un repositorio remoto, respectivamente, que sirven para la sincronización del trabajo de un grupo de desarrolladores de <i>software</i>.</li></ul>El proyecto implicaba el desarrollo de una 'aplicación' (el entrecomillado pretende resaltar el hecho de que se trata una prueba y no una aplicación real) web que sirviese para almacenar fotos y poder recuperarlas con posterioridad.<br></br>A parte de las herramientas mencionadas arriba, el uso de Visual Studio Code, con la nueva integración de <i>Kite,&nbsp;</i>para la corrección de código, ha facilitado mucho el desarrollo de la aplicación.<br></br>Reseñar, finalmente, el uso de un entorno virtual de conda para la organización de las dependencias necesarias para el correcto funcionamiento de la aplicación.<br></br>Puedes descargar el código y los archivos necesarios en el correspondiente repositorio de&nbsp;<a href='https://github.com/GuilleHM/TechTest' target='_blank'>GitHub</a>. Siéntete libre de mejorarlo y/o utilizarlo. Si lo haces, recuerda mencionar esta entrada para que la cadena de reconocimientos siga su curso.<br></br>DESARROLLO WEB...¡ALLÁ VOY!"
+        },
+        {
+            "id": 6,
+            "postCategory": "Inteligencia Artificial",
+            "postTitle": "De Incógnito",
+            "postSubtitle": "EMPLEANDO OPENCV PARA RECONOCER CARAS...¡Y DISFRAZARLAS!",
+            "slug": "de-incognito",
+            "postedOn": "21 de Febrero de 2020",
+            "author": "GuilleHM",
+            "postImage": "deIncognitoConMarcaDeAgua.png",
+            "postText": "Los carnavales están a la vuelta de la esquina, así que he aprovechado para publicar este pequeño proyecto de <i>Computer Vision</i> en Python.<br></br>El objetivo de este trabajo era familiarizarme con la biblioteca <b>OpenCV </b>de Python. Dentro de las amplias opciones que ofrece esta potente herramienta para el procesamiento de imágenes, decidí centrarme en el reconocimiento facial y la superposición de imágenes para conseguir un efecto (carnavalesco) de camuflaje.<br></br>El proyecto está basado en una idea de <a href='https://www.codingforentrepreneurs.com/' target='_blank'>codingforenterpreneurs</a>, aunque emplea un algoritmo distinto para el solapamiento de imágenes.<br></br>La idea básica es la siguiente: utilizar <b>OpenCV </b>para grabar un video a través de una <i>webcam</i>, reconocer la cara que aparezca en el video (este trabajo está limitado a una cara, aunque es fácilmente ampliable a imágenes en las que aparezcan varias caras) y colocar sobre la misma una serie de imágenes predefinidas (en este caso, un sombrero de copa y unas gafas de sol negras). Para la superposición de imágenes emplea el canal de transparencia de las imágenes tipo PNG.<br></br>Por otro lado, y para completar el proyecto, un pequeño <i>script</i>, también basado en <b>OpenCV</b>, sirve para introducir la marca de agua que puede verse en la esquina superior derecha del fotograma,&nbsp; (extraído del vídeo que se muestra a continuación) que aparece como cabecera de esta publicación.<br></br>A continuación, uno de los vídeos grabados mediante el <i>script </i>principal, GafasyGorro.py. Puede observarse cómo el sistema deja de reconocer la cara como tal cuando ponemos una mano delante de la misma.<br></br><video style='max-width:100%' controls><source src='/static/media/deIncognito.mp4' type='video/mp4'><source src='/static/media/deIncognito.webm' type='video/webm'><source src='/static/media/deIncognito.ogv' type='video/ogg'><p>Your browser doesn't support HTML5 video :(</p></video><br></br>Puedes descargar el código y los archivos necesarios en el correspondiente repositorio de&nbsp;<a href='https://github.com/GuilleHM/Incognito' target='_blank'>GitHub</a>. Siéntete libre de mejorarlo y/o utilizarlo. Si lo haces, recuerda mencionar esta entrada para que la cadena de reconocimientos siga su curso.<br></br>POR CIERTO...¡EL QUE APARECE EN LA IMAGEN NO SOY YO! :)"
+        },
+        {
+            "id": 5,
+            "postCategory": "Ingeniería del Software",
+            "postTitle": "¡Ya Vienen Los Reyes!",
+            "postSubtitle": "CÓMO UTILIZAR LA MULTITAREA ASÍNCRONA COOPERATIVA EN PYTHON",
+            "slug": "ya-vienen-los-reyes",
+            "postedOn": "2 de Enero de 2020",
+            "author": "GuilleHM",
+            "postImage": "reyesMagos.gif",
+            "postText": "Si el subtitulo de esta entrada te suena a chino, no te preocupes...¡es <i>normal</i>! Le sucede a la mayoría de la gente <i>normal </i>:)<br></br>En esta publicación puedes ver una representación un tanto peculiar de la Llegada de los Reyes Magos al Portal de Belén, un tema muy apropiado para la época.<br></br>Ésta es una creación artístico-técnica en la que emplearemos como base una ilustración creada a partir de un dibujo publicado por <i>Andrew Newman</i> en <a href='https://www.asciiart.eu/holiday-and-events/christmas/religious' target='_blank'>ASCII Arts</a> y a la que añadiremos dinamismo a través del cambio de color y el parpadeo de algunos elementos, lo que nos servirá para practicar el <b>procesamiento cooperativo asíncrono multitarea en Python</b>. La idea está inspirada en el mini proyecto de <i>Engineer Man</i> para la creación de un arbol de Navidad que podemos encontrar en <a href='https://github.com/engineer-man/youtube/tree/master/089' target='_blank'>Github</a>.<br></br>Puedes descargar el <i>notebook</i>&nbsp;(junto con sus versiones en .html y .pdf) de este proyecto en el siguiente&nbsp;<a href='https://drive.google.com/drive/folders/1eT0iUGT7eZ6_09usxwCA_Feb5iVY0LVw?usp=sharing' target='_blank'>enlace</a>. Si lo prefieres, puedes consultar el código y los archivos necesarios en el correspondiente repositorio de <a href='https://github.com/GuilleHM/Reyes-Magos-2020' target='_blank'>GitHub</a>. Siéntete libre de mejorarlo y/o utilizarlo. Si lo haces, recuerda mencionar esta entrada para que la cadena de reconocimientos siga su curso.<br></br>¡ESPERO QUE NO ME TRAIGAN CARBÓN! :)"
+        },
+        {
+            "id": 4,
+            "postCategory": "Inteligencia Artificial",
+            "postTitle": "JOBNTER no te Quitará el Trabajo, ¡Te Ayudará a Encontrarlo!",
+            "postSubtitle": "CÓMO APLICAR A CIENTOS DE TRABAJOS...¡Y NO MORIR EN EL INTENTO!",
+            "slug": "jobnter",
+            "postedOn": "7 de Diciembre de 2019",
+            "author": "GuilleHM",
+            "postImage": "jobnter.png",
+            "postText": "Si estás buscando trabajo actualmente, utilizas&nbsp;<a href='http://www.linkedin.com/' target='_blank'>LinkedIn</a>&nbsp;para ello y te gustaría contar con un asistente personal que envíe por tí tus solicitudes, esta entrada te interesa.<br></br>Tras finalizar mi Máster en Análisis y Visualización de Datos Masivos (<i>Big Data</i>) el pasado mes de Noviembre, comencé a buscar trabajo para reorientar mi carrera profesional hacia el mundo de la Ciencia de los Datos.<br></br>La buena noticia es que en la web de <i>LinkedIn</i>&nbsp;existen (mientras escribo estas líneas) más de 22.000 puestos abiertos en la Unión Europea relacionados con esta orientación laboral. La mala, sin embargo, es que surcar ese vasto elenco de oportunidades es una tarea <i>muuuuy </i>cansina <i>y&nbsp;</i>estresante. Leer la descripción del trabajo, los requisitos para el puesto, informarse sobre la empresa, enviar la solicitud...y así, una y otra vez.<br></br><i>LinkedIn</i> muestra para cada puesto de trabajo publicado en su web, el número de personas que lo han solicitado. Algunos de ellos cuentan con cientos de solicitantes y, obviamente, los reclutadores de las empresas NO revisan los perfiles y/o Cv's de todas las personas que aplican a dichos puestos. Dado el gran número de solicitudes que reciben, muchas de estas empresas han implantado algoritmos de procesado que sirven para filtrar todas estas solicitudes en base a una serie de criterios bien definidos.<br></br>Es perfectamente legítimo que las empresas empleen este tipo de técnicas para optimizar sus recursos. Igualmente, creo que los candidatos debemos emplear nuestro tiempo en tareas más provechosas, como incrementar nuestra formación, en lugar de realizar la repetitiva y tediosa tarea que supone enviar solicitudes de empleo, máxime cuando puede que nadie llegue a revisar finalmente nuestra solicitud. Para este tipo de tareas también nosotros debemos apoyarnos en las máquinas.<br></br>Tras reflexionar sobre todos los detalles del proceso de búsqueda de empleo en <i>LinkedIn</i>, decidí crear un <i>bot</i>&nbsp;que aplicase programáticamente por mi a aquellos puestos de mi interés. Solo si se producía entonces un <i>match </i>en este 'Tinder del Trabajo', una persona al otro lado y yo, dedicaríamos nuestro tiempo en dilucidar si podríamos llegar a establecer una relación estable (esta parte no me ha quedado muy romántica, ¿no? :)).<br></br>La opción de 'Solicitud sencilla', que permite reducir el proceso de solicitud a un par de <i>clicks</i>&nbsp;de ratón (aunque es cierto que el número de puestos accesibles a través de esta opción es sensiblemente menor), es perfecta para el objetivo de automatizar la búsqueda de empleo: un <i>script </i>en Python empleando las librerías&nbsp;<i>Selenium y BeautifulSoup, y</i>&nbsp;ejecutado periódicamente, sería el encargado.<br></br>La pertinente búsqueda en La Web para ver si alguien había tenido ya esta idea, me llevó a descubrir en GitHub este fabuloso&nbsp;<a href='https://github.com/nicolomantini/LinkedIn-Easy-Apply-Bot' target='_blank'>proyecto</a>&nbsp;de Nicolò Mantini. La optimización y adaptación a mis necesidades de su código, llevó a la creación de mi <i>querido </i>asistente personal para la búsqueda de trabajo: <b>JOBNTER</b>.<br></br>Ya he puesto a trabajar a JOBNTER, con más de 50 solicitudes enviadas con éxito. En los próximos días lo pondré a funcionar a pleno rendimiento y actualizaré la entrada con los resultados.<br></br>ACTUALIZACIÓN (Mayo 2020): JOBNTER funciona perfectamente con, literalmente, miles de CVs enviados. Desafortunadamente, todavía no ha habido <i>match</i>...Pero, ¡seguimos intentándolo!.<br></br>Puedes encontrar el código de este proyecto en el siguiente <a href='https://github.com/GuilleHM/JOBNTER' target='_blank'>enlace</a> (¡ya está publicado!). Siéntete libre de mejorarlo y/o utilizarlo. Si lo haces, recuerda mencionar esta entrada para que la cadena de&nbsp; reconocimientos siga su curso.<br></br>¡SUERTE EN TU BÚSQUEDA!<br></br>NOTA: La estética de JOBNTER está basada en Chomper, un simpático robot quitanieves diseñado y construido por Dane Kouttron, ingeniero del MIT. Me pareció acertado emplearlo como modelo ya que ambos hacen lo mismo: ¡te abren el camino! Puedes ver un video de Chomper en acción en este <a href='https://vimeo.com/260872599' target='_blank'>enlace</a>."
+        },
+        {
+            "id": 3,
+            "postCategory": "Ingeniería Energética / Ciencia de los Datos",
+            "postTitle": "Estudio de Viabilidad de una Instalación de Autoconsumo Conectada a Red",
+            "postSubtitle": "TRABAJO FIN DE MÁSTER - Análisis y Visualización de Datos Masivos (Big Data) ",
+            "slug": "estudio-viabilidad-instalacion-autoconsumo",
+            "postedOn": "4 de Diciembre de 2019",
+            "author": "GuilleHM",
+            "postImage": "alternativeEnergy.jpg",
+            "postText": "Esta publicación recoge un resumen y el enlace a mi TFM.<br></br>El trabajo ha evaluado la viabilidad económica de una instalación eólico-solar de autoconsumo de energía eléctrica para un domicilio particular, en el nuevo contexto que ha supuesto para este tipo de instalaciones la reciente aprobación en España del Real Decreto 244/2019, de 5 de abril.<br></br>El empleo de tecnologías como PowerShell, MongoDB, R y Python nos ha permitido la recolección (desde fuentes de datos abiertas de reconocida fiabilidad como son AEMET OpenDanta, PVGIS, ERA-Interim, REE eSIOS, etc.), el almacenamiento, la manipulación, el análisis y la visualización de los datos relativos a: los recursos eólico y solar disponibles en el domicilio, los patrones de consumo de energía eléctrica en éste, el precio de la energía (tanto consumida como producida) y los costes de la instalación.<br></br>La conjugación de dichos datos ha revelado la idoneidad en este caso de una instalación meramente solar. Estos mismos datos indican, no obstante, que una instalación eólica o híbrida puede ser también una opción económicamente viable.<br></br>Puedes encontrar la memoria del TFM en el siguiente <a href='https://drive.google.com/drive/folders/1SgEUGdC8Y5dfOTnFP2My76e1F_vykOg3' target='_blank'>enlace</a>.<br></br>¡PÁSATE A LAS ENERGÍAS LIMPIAS!"
+        },
+        {
+            "id": 2,
+            "postCategory": "Visualización de Datos",
+            "postTitle": "Homenaje al 'Capitán Veneno'",
+            "postSubtitle": "UN ESCULTOR DE LA PALABRA Y EL JUICIO CRÍTICO",
+            "slug": "homenaje-al-capitan-veneno",
+            "postedOn": "1 de Diciembre de 2019",
+            "author": "GuilleHM",
+            "postImage": "capitanVeneno.png",
+            "postText": "El objetivo de esta publicación es rendir un homenaje póstumo a <b>Juan Carlos Aragón</b>, 'El Capitán Veneno': poeta, filósofo y reconocido autor de chirigotas y comparsas del Carnaval de Cádiz. Para ello, programamos un <i>web crawler</i> que obtiene las letras de sus agrupaciones carnavalescas más famosas y, desde éstas, creamos una NUBE DE PALABRAS que nos muestra qué palabras aparecen con mayor frecuencia en sus repertorios.<br></br>Puedes encontrar la publicación completa, en formatos <i>html </i>y <i>pdf</i>,&nbsp;en el siguiente <a href='https://drive.google.com/drive/folders/13DriaeeQyvXhtzR4VkwFauDRjr7OuluW?usp=sharing' target='_blank'>enlace</a>.<br></br>Para realizar esta nube de palabras, hemos utilizado las letras de sus agrupaciones desde 1997 hasta 2018 (cuatro chirigotas y veinte comparsas en total).<br></br>Como podemos observar en la visualización anterior, las palabras que más empleó el autor como letrista de estas agrupaciones carnavalescas, son:<ul><li><b>CÁDIZ</b></li><li><b>VIDA</b></li><li><b>GENTE</b></li><li><b>AQUÍ</b> (¿tendrá algo que ver con 'algo que hay que hacer' en Cádiz?<span style='font-size: x-small;'> - pequeña licencia&nbsp;humorística :) -</span>)</li><li><b>DÍA</b></li></ul>Además, podemos apreciar otras palabras con una frecuencia de aparición algo menor pero que, a título personal, me 'saben' mucho a JCA.<br></br>A los aficionados del Carnaval de Cádiz, ¿qué os parece que sean éstas las palabras más usadas por el tristemente desaparecido autor? ¿Os ha sorprendido? ¡Dejad vuestros comentarios!<br></br>DEP, MAESTRO."
+        },
+        {
+            "id": 1,
+            "postCategory": "Visualización de Datos",
+            "postTitle": "8500: ¿En Cuánto Tiempo Morirían Nuestros Hijos?",
+            "postSubtitle": "LA DESNUTRICIÓN COMO CAUSA EVITABLE DE MORTALIDAD INFANTIL",
+            "slug": "8500-en-cuanto-tiempo-moririan-nuestros-hijos",
+            "postedOn": "26 de Noviembre de 2019",
+            "author": "GuilleHM",
+            "postImage": "mapa8500.gif",
+            "postText": "Según estimaciones de la ONG&nbsp;<a href='https://www.accioncontraelhambre.org/es/landing/8500-ninos-mueren-cada-dia-por-desnutricion' target='_blank'>ACCIÓN CONTRA EL HAMBRE</a>,&nbsp;<b>8500 niños menores de 5 años mueren AL DÍA por desnutrición</b>.<br></br>El objetivo de esta publicación es crear un mapa dinámico que muestre cuánto tiempo tardarían en morir todos los niños menores de 5 años en España, en caso de sufrir en nuestro pais esta mortandad. Éste es, obviamente, un ejercicio figurativo, con la única finalidad de facilitar la comprensión por parte de la problación española del alcance de esta tragedia global. Para ello, empleamos una metáfora visual en la que la luz del pais se iría apangando a medida que muriesen los niños.<br></br>Para intentar dar un contexto y hacer más comprensible la magnitud de esta tragedia, baste con decir que, si fuesen los aproximadamente 2 millones de niños españoles lo que murieses a ese ritmo, estos <b>MORIRÍAN EN MENOS DE 9 MESES</b>.<br></br>Puedes encontrar la publicación completa, incluído el código para generar la visualización, en los siguientes enlaces: <a href='http://rpubs.com/GuilleHM/552789' target='_blank'>FondoClaro</a> y <a href='http://rpubs.com/GuilleHM/553928' target='_blank'>FondoOscuro</a>.<br></br><b>ACTUALIZACIÓN DE LA PUBLICACIÓN EN MAYO DE 2020: En estos tiempos en los que 'la sociedad' (vaya concepto rancio) se escandaliza por los miles de muertos a causa de la COVID-19, deberíamos avengonzarnos de este otro número, 8500, muchísimo más devastador: a día de hoy hay en el mundo unas 200.000 personas fallecidas por la COVID-19 (DEP); esa misma cantidad de niños menores de 5 años mueren por problemas derivados de la malnutrición CONTINUAMENTE cada, aproximadamente, 24 días</b>."
+        }
+    ]
+}

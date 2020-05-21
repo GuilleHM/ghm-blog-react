@@ -1,0 +1,61 @@
+.featuredPostsContainer {
+    width: 70%;
+}
+
+.featuredPostsHeader {
+    /* text-transform: uppercase; */
+    font-size: 1.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.featuredPostImageWrapper {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.featuredPostImageWrapper img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.postBriefing h1, .postBriefing span {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    line-height: 2.2rem;
+    margin: 0 0 10px;
+}
+
+.postBriefing p {
+    padding: 0 1rem;
+}
+
+.postLink a {
+    display: inline-block;
+    margin: 0 auto 15px;
+    position: relative;
+    padding: 0 5px 2px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #10bde9;
+    border-radius: 5px;
+}
+
+@media only screen and (max-device-width: 500px) and (orientation: portrait) {
+    .featuredPostsContainer {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .featuredPostsHeader {
+        font-size: 1.2rem;
+        margin-top: 20px;
+        margin-bottom: -5px;
+    }
+    .postBriefing h1 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "postTitle": "Homenaje al 'Capitán Veneno'",
+            "slug": "homenaje-al-capitan-veneno",
+            "postedOn": "1 de Diciembre de 2019",
+            "postBriefing": "El objetivo de esta publicación es rendir un homenaje póstumo a Juan Carlos Aragón, 'El Capitán Veneno': poeta, filósofo y reconocido autor de chirigotas y comparsas del Carnaval de Cádiz. Para ello, programamos un web crawler que obtiene las letras de sus agrupaciones carnavalescas más famosas y, desde éstas, creamos una NUBE DE PALABRAS que nos muestra qué palabras aparecen con mayor frecuencia en sus repertorios...",
+            "imageName": "capitanVeneno.png"
+        },
+        {
+            "id": 1,
+            "postTitle": "8500: ¿En cuánto tiempo morirían nuestros hijos?",
+            "slug": "8500-en-cuanto-tiempo-moririan-nuestros-hijos",
+            "postedOn": "26 de Noviembre de 2019",
+            "postBriefing": "Según estimaciones de la ONG ACCIÓN CONTRA EL HAMBRE,8500 niños menores de 5 años mueren AL DÍA por desnutrición...",
+            "imageName": "mapa8500.gif"
+        }
+    ]
+}
