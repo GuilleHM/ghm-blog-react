@@ -18,12 +18,12 @@ function App() {
       <div className="App">
         <Header />
         <Hero />
-        <Route path="/" exact component={Home} />
-        <Route path="/perfil" component={Profile} />
-        <Route path="/contacto" component={ContactUS} />
-        <Route path="/resultados-busqueda" component={SearchResults} />
-        <Route path="/publicaciones" component={Posts} />
-        <Route path="/publicacion/:slug" component={SinglePost} />
+        <Route path="./" exact component={Home} />
+        <Route path="./perfil" component={Profile} />
+        <Route path="./contacto" component={ContactUS} />
+        <Route path="./resultados-busqueda" component={SearchResults} />
+        <Route path="./publicaciones" component={Posts} />
+        <Route path="./publicacion/:slug" component={SinglePost} />
       </div>
       <Footer />
     </Router>
