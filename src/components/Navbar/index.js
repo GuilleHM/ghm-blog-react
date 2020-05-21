@@ -17,9 +17,14 @@ const Navbar = (props) => {
     const toggleSearch = () => {
         setSearch(!search);
         const searchInput = document.querySelector('#searchInput');
-        if (search && searchInput.value !== '') {
-            sessionStorage.setItem('key', searchInput.value.toLowerCase().trim());
-            searchInput.parentElement.submit();
+        if (search) {
+            if (searchInput.value !== '') {
+                sessionStorage.setItem('key', searchInput.value.toLowerCase().trim());
+                searchInput.parentElement.submit();
+            } else {
+                searchInput.blur();
+                return;
+            }
         }
         searchInput.value = '';
         searchInput.focus();
