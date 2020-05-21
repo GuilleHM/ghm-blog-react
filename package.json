@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postbuild": "cp pruebaIn.txt pruebaOut.txt"
+    "postbuild": "cp ./pruebaIn.txt ./pruebaOut.txt"
   },
   "eslintConfig": {
     "extends": "react-app"
