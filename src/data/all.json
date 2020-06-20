@@ -1,6 +1,28 @@
 {
     "data": [
         {
+            "id": 17,
+            "postCategory": "Desarrollo Web",
+            "postTitle": "Sencilla PWA para comprobar el tiempo en las ciudades españolas",
+            "postSubtitle": "APRENDIENDO LAS TÉCNICAS QUE MEJORAN LA EXPERIENCIA DE USUARIO ",
+            "slug": "pwa-tiempo-ciudades-españolas",
+            "postedOn": "20 de Junio de 2020",
+            "author": "GuilleHM",
+            "postImage": "elTiempoEnTuCiudad.gif",
+            "postText": "Este nuevo sitio web es un paso más en el camino infinito de aprendizaje que recorre el mundo del desarrollo web (o, para el caso, de cualquier disciplina). Desde el punto de vista funcional, el empleo de un generador de páginas web estáticas como Gatsby pretende mejorar la experiencia de los usuarios que visiten mi sitio. En cuanto a la estética, una disposición asimétrica de los elementos, la inclusión de animaciones y otros efectos desarrollados en Javascript, han supuesto un salto considerable en la apariencia del sitio web.<br></br>Al igual que en la creación de mi propio blob, he utilizado <i>React.js v.16</i>&nbsp;&nbsp;para desarrollar el <i>front-end</i>&nbsp;&nbsp;del sitio web. En esta ocasión, sin embargo, en lugar de almacenar y extraer los datos de las entradas del blog en varios archivos <i>.json</i>, he decidio utilizar el <i>CMS</i>&nbsp;&nbsp;de <i>Netlify</i>&nbsp;&nbsp;para la gestión y el acceso a tales datos.<br></br>He vuelto a desplegar el sitio web en <i>Netlify</i>&nbsp;, dada la gran facilidad que ofrece este servicio, no solo para el despliegue inicial del sitio web, sino para la integración continua de nuevos desarrollos.<br></br>Cabe reseñar que el <i>CMS</i>&nbsp;&nbsp;de <i>Netlify</i>&nbsp;&nbsp;es muy sencillo de integrar con un sitio web creado mediante un <i>generador de sitios estáticos</i>&nbsp;&nbsp;(i.e. <i>Gatsby</i>, <i>Hugo</i>, <i>Jekyll</i>, etc.) para lo cual, la documentación del <i>CMS</i>&nbsp;&nbsp;ofrece incluso algunos proyectos preconstruidos; la integración con aplicaciones o sitios web desarrollados mediante marcos de trabajo o bibliotecas especializadas de <i>front-end</i>&nbsp;&nbsp;no es inmediata, pero algunos ajustes en los correspondientes archivos de configuración permite un acople perfecto entre ambas partes.<br></br>Destacar también el redireccionamiento <i>DNS</i>&nbsp;&nbsp;realizado para proporcionar un nombre de dominio libre.<br></br>Como siempre, puedes visitar la página en&nbsp;<a href='https://carmenmg-blog.netlify.app' target='_blank'>www.elblogdecarmenmontado.ml</a>&nbsp;o ver el código fuente en&nbsp;<a href='https://github.com/GuilleHM/blog-carmenmg-react-netlify-cms' target='_blank'>Github</a>.<br></br>¡BUEN PROVECHO! ÑAM :)"
+        },
+        {
+            "id": 16,
+            "postCategory": "Desarrollo Web",
+            "postTitle": "Nuevo sitio web creado con Gatsby y Strapi",
+            "postSubtitle": "MEJORANDO LA FUNCIONALIDAD Y LA ESTÉTICA DE MI SITIO WEB",
+            "slug": "nuevo-sitio-web-gatsby-strapi",
+            "postedOn": "17 de Junio de 2020",
+            "author": "GuilleHM",
+            "postImage": "guillehm.png",
+            "postText": "Este nuevo sitio web es un paso más en el camino infinito de aprendizaje que recorre el mundo del desarrollo web (o, para el caso, de cualquier disciplina). Desde el punto de vista funcional, el empleo de un generador de páginas web estáticas como Gatsby pretende mejorar la experiencia de los usuarios que visiten mi sitio. En cuanto a la estética, una disposición asimétrica de los elementos, la inclusión de animaciones y otros efectos desarrollados en Javascript, han supuesto un salto considerable en la apariencia del sitio web.<br></br>Al igual que en la creación de mi propio blob, he utilizado <i>React.js v.16</i>&nbsp;&nbsp;para desarrollar el <i>front-end</i>&nbsp;&nbsp;del sitio web. En esta ocasión, sin embargo, en lugar de almacenar y extraer los datos de las entradas del blog en varios archivos <i>.json</i>, he decidio utilizar el <i>CMS</i>&nbsp;&nbsp;de <i>Netlify</i>&nbsp;&nbsp;para la gestión y el acceso a tales datos.<br></br>He vuelto a desplegar el sitio web en <i>Netlify</i>&nbsp;, dada la gran facilidad que ofrece este servicio, no solo para el despliegue inicial del sitio web, sino para la integración continua de nuevos desarrollos.<br></br>Cabe reseñar que el <i>CMS</i>&nbsp;&nbsp;de <i>Netlify</i>&nbsp;&nbsp;es muy sencillo de integrar con un sitio web creado mediante un <i>generador de sitios estáticos</i>&nbsp;&nbsp;(i.e. <i>Gatsby</i>, <i>Hugo</i>, <i>Jekyll</i>, etc.) para lo cual, la documentación del <i>CMS</i>&nbsp;&nbsp;ofrece incluso algunos proyectos preconstruidos; la integración con aplicaciones o sitios web desarrollados mediante marcos de trabajo o bibliotecas especializadas de <i>front-end</i>&nbsp;&nbsp;no es inmediata, pero algunos ajustes en los correspondientes archivos de configuración permite un acople perfecto entre ambas partes.<br></br>Destacar también el redireccionamiento <i>DNS</i>&nbsp;&nbsp;realizado para proporcionar un nombre de dominio libre.<br></br>Como siempre, puedes visitar la página en&nbsp;<a href='https://carmenmg-blog.netlify.app' target='_blank'>www.elblogdecarmenmontado.ml</a>&nbsp;o ver el código fuente en&nbsp;<a href='https://github.com/GuilleHM/blog-carmenmg-react-netlify-cms' target='_blank'>Github</a>.<br></br>¡BUEN PROVECHO! ÑAM :)"
+        },
+        {
             "id": 15,
             "postCategory": "Desarrollo Web",
             "postTitle": "Creando un blog con React.js y el CMS de Netlify",
