@@ -5,7 +5,7 @@
             "postTitle": "Sencilla PWA para comprobar el tiempo en las ciudades españolas",
             "slug": "pwa-tiempo-ciudades-españolas",
             "postedOn": "20 de Junio de 2020",
-            "postBriefing": "Este nuevo sitio web es un paso más en el camino infinito de aprendizaje que recorre el mundo del desarrollo web (o, para el caso, de cualquier disciplina). Desde el punto de vista funcional, el empleo de un generador de páginas web estáticas como Gatsby pretende mejorar la experiencia de los usuarios que visiten mi sitio. En cuanto a la estética...",
+            "postBriefing": "Esta vez presento una pequeña aplicación para verificar cuál es el tiempo presente en la ciudad española que se elija. Si bien tiene algo de código para proporcionar un estilizado y dinamismo que hagan la aplicación más atractiva, el objetivo fundamental de este desarrollo era crear una Aplicación Web Progresiva (PWA, por sus siglas en inglés)... ",
             "imageName": "elTiempoEnTuCiudad.gif"
         },
         {
