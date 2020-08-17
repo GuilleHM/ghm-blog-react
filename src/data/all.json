@@ -3,7 +3,7 @@
         {
             "id": 19,
             "postCategory": "Desarrollo Web",
-            "postTitle": "Ytat: una aplicación web full stack, con Gatsby / Netlify en el front-end y Strapi / Heroku en el back-end",
+            "postTitle": "Ytat: aplicación web full stack, con Gatsby / Netlify y Strapi / Heroku",
             "postSubtitle": "PRIMER CENSO MUNDIAL DE PERSONAS RELACIONADAS CON EL TANGO ARGENTINO",
             "slug": "yo-tambien-amo-el-tango",
             "postedOn": "17 de Agosto de 2020",
@@ -14,7 +14,7 @@
         {
             "id": 18,
             "postCategory": "Desarrollo Web",
-            "postTitle": "VideoHead: La guía definitiva de las mejores películas creada con Gatsby y TMDB REST API",
+            "postTitle": "VideoHead: webApp de las mejores películas creada con Gatsby y TMDB REST API",
             "postSubtitle": "WEB APP CON LOS DETALLES DE LAS 50 MEJORES PELÍCULAS DE LA HISTORIA",
             "slug": "videohead-guia-mejores-peliculas",
             "postedOn": "22 de Julio de 2020",
