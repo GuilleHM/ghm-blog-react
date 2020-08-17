@@ -3,7 +3,7 @@
         {
             "id": 19,
             "postCategory": "Desarrollo Web",
-            "postTitle": "Ytat: una aplicación web full stack, con Gatsby-Netlify en el front-end y Strapi-Heroku en el back-end",
+            "postTitle": "Ytat: una aplicación web full stack, con Gatsby / Netlify en el front-end y Strapi / Heroku en el back-end",
             "postSubtitle": "PRIMER CENSO MUNDIAL DE PERSONAS RELACIONADAS CON EL TANGO ARGENTINO",
             "slug": "yo-tambien-amo-el-tango",
             "postedOn": "17 de Agosto de 2020",

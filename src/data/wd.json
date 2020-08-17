@@ -2,7 +2,7 @@
     "data": [
         {
             "id": 13,
-            "postTitle": "Ytat: una aplicación web full stack, con Gatsby-Netlify en el front-end y Strapi-Heroku en el back-end",
+            "postTitle": "Ytat: una aplicación web full stack, con Gatsby / Netlify en el front-end y Strapi / Heroku en el back-end",
             "slug": "yo-tambien-amo-el-tango",
             "postedOn": "17 de Agosto de 2020",
             "postBriefing": "Aplicación web, con interfaz en español e inglés, que pretende establecer un censo a nivel mundial de personas relacionadas con el tango argentino...",
@@ -14,7 +14,7 @@
             "slug": "videohead-guia-mejores-peliculas",
             "postedOn": "22 de Julio de 2020",
             "postBriefing": "Aplicación web, con interfaz en inglés, desde la que obtener información de las consideradas como 50 mejores películas de la historia por los integrantes del sindicato de guionistas de Hollywood...",
-            "imageName": "videoHead.png"
+            "imageName": "videoHead2.png"
         },
         {
             "id": 11,
