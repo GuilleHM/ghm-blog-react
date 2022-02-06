@@ -15,7 +15,7 @@ const Profile = (prop) => {
                             className="bio-image" />
                         <div className="bio">
                             <h2>Biografía</h2>
-                            <p>Me llamo Guillermo Huerta y soy un ingeniero electrónico con más de 16 años de experiencia laboral. Después de trabajar para varias empresas multinacionales, implementando proyectos relacionados con la automatización industrial en más de 20 paises,  decidí reorientar mi carrera profesional hacia los fascinantes mundos de la ciencia de los datos y el desarrollo web.</p>
+                            <p>Me llamo Guillermo Huerta y soy un ingeniero electrónico con más de 18 años de experiencia laboral. Después de trabajar para varias empresas multinacionales, implementando proyectos relacionados con la automatización industrial en más de 20 paises,  decidí reorientar mi carrera profesional hacia los fascinantes mundos de la ingeniería / ciencia de los datos y el desarrollo web.</p>
                             <p>Me gusta trabajar en un entorno colaborativo y multicultural, aumentando la compresión colectiva sobre los fenómenos bajo estudio y con el objetivo de generar un impacto positivo real.</p>
                             <p>He creado este sitio web como escaparate de algunos pequeños proyectos que he creado y que están relacionados con diversos ámbitos de la programación. ¡Espero que te gusten!</p>
                         </div>
@@ -36,7 +36,7 @@ const Profile = (prop) => {
                                 <h2>Experiencia</h2>
                                 <hr></hr>
                                 <h3>Ingeniero de Campo</h3>
-                                <h4>EOS GmbH (Oct'15 - Oct'18)</h4>
+                                <h4>EOS GmbH (Oct'15 - Jun'19)</h4>
                                 <h3>Ingeniero de Campo</h3>
                                 <h4>GE (Mar'08 - Ago'14)</h4>
                                 <h3>Ingeniero de Producto</h3>
